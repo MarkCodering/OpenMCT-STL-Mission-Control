@@ -66,8 +66,7 @@ app.use(require('webpack-hot-middleware')(
 
     }
 ));
-
-app.use(express.static('./dictionary.json'));
+app.use(express['static'](options.directory));
 
 // Expose index.html for development users.
 app.get('/', function (req, res) {

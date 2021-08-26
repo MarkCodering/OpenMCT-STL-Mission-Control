@@ -1,6 +1,6 @@
 function getDictionary() {
-    return fetch("dictionary.json").then(function(response){
-        return response.json()
+    return fetch("/example/DictionaryPlugin/dictionary.json").then(function(response){
+        return response.json();
     });
 }
 

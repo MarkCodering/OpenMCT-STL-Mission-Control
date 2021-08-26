@@ -71,7 +71,7 @@ define([
     './hyperlink/plugin',
     './DeviceClassifier/plugin',
     '../../example/STLTelemetryServer/STLTelemetryServer',
-    './DictionaryPlugin/DictionaryPlugin'
+    '../../example/DictionaryPlugin/DictionaryPlugin'
 ], function (
     _,
     UTCTimeSystem,
