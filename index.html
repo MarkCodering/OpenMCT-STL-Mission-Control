@@ -196,7 +196,10 @@
             {indicator: true}
         ));
 
-        openmct.install(openmct.plugins.STLTelemetryServer());
+        openmct.install(openmct.plugins.STLTelemetryServer(
+            'STLRocket.taxonomy', 
+            '/STLTelemetryPlugin/', 
+            'localhost'));
         openmct.install(openmct.plugins.DictionaryPlugin());
 
         openmct.start();
