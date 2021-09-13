@@ -71,7 +71,9 @@ define([
     './hyperlink/plugin',
     './DeviceClassifier/plugin',
     '../../example/STLTelemetryServer/STLTelemetryServer',
-    '../../example/DictionaryPlugin/DictionaryPlugin'
+    '../../example/DictionaryPlugin/DictionaryPlugin',
+    '../../example/ControlPanel/ControlPanel',
+    '../../example/HistoricalTelemetry/HistoricalTelemetry'
 ], function (
     _,
     UTCTimeSystem,
@@ -123,7 +125,9 @@ define([
     Hyperlink,
     DeviceClassifier,
     STLTelemetryServer,
-    DictionaryPlugin
+    DictionaryPlugin,
+    ControlPanel,
+    HistoricalTelemetry
 ) {
     const bundleMap = {
         LocalStorage: 'platform/persistence/local',
@@ -230,6 +234,8 @@ define([
     plugins.DeviceClassifier = DeviceClassifier.default;
     plugins.STLTelemetryServer = STLTelemetryServer.default;
     plugins.DictionaryPlugin = DictionaryPlugin.default;
+    plugins.ControlPanel = ControlPanel.default;
+    plugins.HistoricalTelemetry = HistoricalTelemetry.default;
 
     return plugins;
 });
