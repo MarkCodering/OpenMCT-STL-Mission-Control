@@ -1,10 +1,10 @@
 {
-    "name": "STL Rocket Mission Control",
+    "name": "STL Rocket Mission Control - Realtime",
     "key": "sc",
     "measurements": [
         {
-            "name": "Fuel",
-            "key": "prop.fuel",
+            "name": "Acceleration - X",
+            "key": "prop.accx",
             "values": [
                 {
                     "key": "value",
@@ -29,8 +29,8 @@
             ]
         },
         {
-            "name": "Thrusters",
-            "key": "prop.thrusters",
+            "name": "Acceleration - Y",
+            "key": "prop.accy",
             "values": [
                 {
                     "key": "value",
@@ -62,8 +62,8 @@
             ]
         },
         {
-            "name": "Received",
-            "key": "comms.recd",
+            "name": "Acceleration - Z",
+            "key": "prop.accz",
             "values": [
                 {
                     "key": "value",
@@ -86,8 +86,8 @@
             ]
         },
         {
-            "name": "Sent",
-            "key": "comms.sent",
+            "name": "Pitch",
+            "key": "prop.pitch",
             "values": [
                 {
                     "key": "value",
@@ -110,8 +110,8 @@
             ]
         },
         {
-            "name": "Generator Temperature",
-            "key": "pwr.temp",
+            "name": "Yaw",
+            "key": "prop.yaw",
             "values": [
                 {
                     "key": "value",
@@ -134,8 +134,8 @@
             ]
         },
         {
-            "name": "Generator Current",
-            "key": "pwr.c",
+            "name": "Roll",
+            "key": "prop.roll",
             "values": [
                 {
                     "key": "value",
@@ -158,8 +158,8 @@
             ]
         },
         {
-            "name": "Generator Voltage",
-            "key": "pwr.v",
+            "name": "Altitude",
+            "key": "pro.alt",
             "values": [
                 {
                     "key": "value",
